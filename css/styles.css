@@ -8,6 +8,13 @@ body{
 img{
     max-width: 100%;
 }
+footer a{
+    color: #fff !important;
+}
+footer a:hover,
+footer a:focus{
+    color: #fff !important;
+}
 
 /* Typography */
 h2{
@@ -68,7 +75,7 @@ Classes
     background-color: #00439c;
 }
 .bg-secondary{
-    background-color: #161c3b;
+    background-color: #161c3b !important;
 }
 .bg-grey{
     background-color: #bebcbb;
@@ -159,6 +166,11 @@ Classes
     border-radius: 20px;
 }
 
+/* Playstation Plus */
+.logo__playplus{
+    width: 400px;
+}
+
 /* Utilities */
 .section--Hero{
     padding-top: 250px;
@@ -182,4 +194,18 @@ Classes
 }
 .section__text{
     margin-bottom: 30px;
+}
+/* Media Query
+X-Small             <576px
+Small               ≥576px
+Medium              ≥768px
+Large               ≥992px
+Extra larg          ≥1200px
+Extra extra large   ≥1400px
+*/
+
+@media only screen and (max-width: 767px) {
+    .row__playplus{
+        padding: 50px 0;
+    }   
 }
