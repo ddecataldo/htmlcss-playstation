@@ -150,6 +150,13 @@ Classes
 .card-img, .card-img-top {
     border-radius: 15px;
 }
+.row__thumb .card{
+    transform: translateX(0);
+    transition: transform .3s ease-in-out;
+}
+.row__thumb .card:hover{
+    transform: translateY(-10px);
+}
 
 /* Thumb Product PlayStation 5 */
 .row__products img{
